@@ -5,12 +5,14 @@
     /* Transparent background color */
 }
 
-.navbar a {
-    color: #fff;
-    
-    /* Navbar link color */
+/* ul.navbar-nav {
+    background: linear-gradient(90deg, transparent, rgba(181, 181, 255, 0.5), transparent);
+
+} */
+
+.dropdown-item {
+    /*background: rgba(181, 181, 255, 0.5);*/
+    color:aliceblue
+
 }
 
-.navbar-nav {
-    justify-content: end;
-}
