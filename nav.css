@@ -1,9 +1,16 @@
 .navbar {
-    background-color: rgba(71, 71, 71, 0.463);
+    background: linear-gradient(90deg, transparent, rgba(181, 181, 255, 0.5), transparent);
+    
+
     /* Transparent background color */
 }
 
 .navbar a {
     color: #fff;
+    
     /* Navbar link color */
+}
+
+.navbar-nav {
+    justify-content: end;
 }
