@@ -1,6 +1,6 @@
 /* Custom CSS */
 body {
-    background-image: url('/images/website-background.jpg');
+    background-image: url('../images/website-background.jpg');
     /* Add your background image URL */
     background-size: cover;
     background-repeat: no-repeat;
