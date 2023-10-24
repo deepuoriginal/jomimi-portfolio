@@ -1,7 +1,6 @@
 .navbar {
-    background: linear-gradient(90deg, transparent, rgba(181, 181, 255, 0.5), transparent);
-    
-
+    background: linear-gradient(to right, transparent 0%, rgba(45, 43, 91, 0.796) 6%, rgba(45, 43, 91, 0.796) 20%, transparent 60%);
+ /* Adjust the height as needed */
     /* Transparent background color */
 }
 
@@ -16,3 +15,7 @@
 
 }
 
+.logo {
+    padding-left: 3%;
+    margin-left: 3%;
+}
