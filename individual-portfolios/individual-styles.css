@@ -12,7 +12,11 @@ body {
 
 header {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+}
+
+.giticon {
+    position: absolute;
 }
 
 header img {
@@ -40,6 +44,7 @@ header img {
     width: 30%;
     padding: 20px;
     vertical-align: top;
+    margin-top: 3em;
 }
 
 .section h2 {
