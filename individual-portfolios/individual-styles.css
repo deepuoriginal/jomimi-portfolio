@@ -1,7 +1,13 @@
 /* Custom CSS */
 body {
-    background: radial-gradient(circle at 10% 20%, rgb(247, 144, 0) 0%, rgb(0, 67, 250) 90%);
-}
+    background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0; /* To remove default body margin */
+    padding: 0; /* To remove default body padding */
+    height: 100vh; /* Set the height of the body to the viewport height */
+  }
 
 .footer {
     background-color: #333;

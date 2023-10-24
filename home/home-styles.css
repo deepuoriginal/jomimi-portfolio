@@ -1,11 +1,13 @@
 /* Custom CSS */
 body {
-    background-image: url('/main/images/website-background.jpg');
-    /* Add your background image URL */
+    background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255));
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-}
+    background-repeat: no-repeat;
+    margin: 0; /* To remove default body margin */
+    padding: 0; /* To remove default body padding */
+    height: 100vh; /* Set the height of the body to the viewport height */
+  }
 
 div p {
     color:#fff;
