@@ -1,7 +1,70 @@
 /* Custom CSS */
 body {
-    background: radial-gradient(circle at 10% 20%, rgb(247, 144, 0) 0%, rgb(0, 67, 250) 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(252, 136, 5), rgb(0, 26, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 15%;
+    height: 15%;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 3em;
+    overflow:visible;
+}
+
+.section {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 136, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 .footer {
     background-color: #333;
