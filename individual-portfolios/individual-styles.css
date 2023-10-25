@@ -1,6 +1,6 @@
 /* Custom CSS */
 body {
-    background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255));
+    /* background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255)); */
     /*background-image: url('../Images/background.jpg');*/
     background-size: cover;
     background-attachment: fixed;
@@ -15,6 +15,9 @@ header {
     padding-top: 20px;
 }
 
+.content, header img {
+    position: relative;
+}
 .giticon {
     position: absolute;
 }
@@ -31,7 +34,7 @@ header img {
     justify-content: center;
     width: 85%;
     margin: 0 auto;
-    margin-bottom: 1em;
+    margin-bottom: 17em;
     padding: 20px;
     background-color: #fff;
     border: 2px solid black;
@@ -56,9 +59,3 @@ header img {
 }
 
 
-
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}

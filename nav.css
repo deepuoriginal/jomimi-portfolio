@@ -1,3 +1,37 @@
+
+body {
+    /* background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255)); */
+    /*background-image: url('../Images/background.jpg');*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0; /* To remove default body margin */
+    padding: 0; /* To remove default body padding */
+    height: 100vh; /* Set the height of the body to the viewport height */
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  * {
+    position:relative;
+  }
+
+
+  #gradient {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: inset 0em 0em 40em 5em #000000b9;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .navbar {
     background: linear-gradient(to right, transparent 0%, rgba(45, 43, 91, 0.796) 6%, rgba(45, 43, 91, 0.796) 20%, transparent 60%);
  /* Adjust the height as needed */
@@ -21,8 +55,9 @@
 }
 
 
+
 .footer {
-    position: absolute;
+    position: fixed;
     background-color: #333;
     bottom: 0;
     width: 100%;

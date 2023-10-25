@@ -1,16 +1,6 @@
 /* Custom CSS */
 
 
-body {
-    background: linear-gradient(to top right, rgb(227, 127, 4), rgb(43, 43, 255));
-    /*background-image: url('../Images/background.jpg');*/
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0; /* To remove default body margin */
-    padding: 0; /* To remove default body padding */
-    height: 100vh; /* Set the height of the body to the viewport height */
-  }
 
   *{
     margin: 0;
@@ -45,24 +35,22 @@ div p {
   }
 
 
-
 .boxer a {
   position: relative;
   width:130px;
   height:40px;
   display:inline-block;
   margin:20px;
+  
 }
-
-
-
 .boxer a:before,
 .boxer a:after {
   content: '';
   position: absolute;
   inset: 0;
   transition: 0.5s;
-  background:linear-gradient(45deg, blue,orange);
+  background:linear-gradient(335deg, rgb(36, 23, 85) 60%,rgb(255, 255, 255));
+  box-shadow: .13em .2em .35em .06em #000000b9;
   border-radius: 15px;
 }
 .boxer a:hover:before {
@@ -79,7 +67,7 @@ div p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top right, rgba(78, 78, 85, 0.692) 69%, rgba(68, 59, 168, 0.404)71%);
+  background: linear-gradient(to top left, rgba(78, 78, 85, 0.692) 69%, rgba(68, 59, 168, 0.404)71%);
   z-index: 10;
   display: flex;
   justify-content: center;
@@ -90,11 +78,10 @@ div p {
   color: rgb(241, 238, 218);
   border: 1px solid black;
   border-radius: 15px;
+
 }
-
-
 .boxer a span:hover {
-  color: rgb(131, 161, 229);
+  color: rgb(168, 220, 255);
   transition: 0.5s;
 }
 
