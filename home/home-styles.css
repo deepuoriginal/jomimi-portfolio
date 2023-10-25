@@ -48,10 +48,9 @@ div p {
 
 .boxer a {
   position: relative;
-  width:140px;
-  height:50px;
+  width:130px;
+  height:40px;
   display:inline-block;
-  background: white;
   margin:20px;
 }
 
@@ -63,14 +62,15 @@ div p {
   position: absolute;
   inset: 0;
   transition: 0.5s;
-  background:linear-gradient(45deg, blue,orange)
+  background:linear-gradient(45deg, blue,orange);
+  border-radius: 15px;
 }
 .boxer a:hover:before {
   inset: -2px;
 }
 .boxer a:hover:after {
   inset: -2px;
-  filter: blur(15px);
+  filter: blur(5px);
 }
 .boxer a span {
   position: absolute;
@@ -84,9 +84,17 @@ div p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1em;
+  font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: white;
+  letter-spacing: 1px;
+  color: rgb(241, 238, 218);
   border: 1px solid black;
+  border-radius: 15px;
 }
+
+
+.boxer a span:hover {
+  color: rgb(131, 161, 229);
+  transition: 0.5s;
+}
+
