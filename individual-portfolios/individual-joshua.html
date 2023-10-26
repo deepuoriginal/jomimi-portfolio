@@ -60,12 +60,32 @@
     </div>
     <!--NAV END-->
     <header>
-        <img src="../Images/portfolio-pic-joshua.jpg" alt="Joshua Knight">
-        <h1>Joshua Knight</h1>
+        <img id="firstImage" src="../Images/portfolio-pic-joshua.jpg" alt="Joshua Knight">
+        <h1 id="textElement">Joshua Knight</h1>
         <a href="https://github.com/JoshuaTheKnight" target="_blank">
             <i class="fa-brands fa-github fa-2x" style="color: #fc8805;"></i>
         </a>
     </header>
+
+    <script>
+        // JavaScript to change the image on click
+        var image = document.getElementById("firstImage");
+        var text = document.getElementById("textElement");
+        let isImage1 = true;
+
+        image.addEventListener("click", function() {
+            if (isImage1) {
+                image.src = "../Images/me.jpg";
+                text.textContent = "Joshua Knight (True Form)";
+            } else {
+                image.src = "../Images/portfolio-pic-joshua.jpg"; 
+                text.textContent = "Joshua Knight";
+            }
+            isImage1 = !isImage1;
+        });
+    </script>
+
+
     <div class="content">
         <div class="section">
             <h2>About Me</h2>
