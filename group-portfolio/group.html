@@ -7,7 +7,9 @@
   <link rel="stylesheet" type="text/css" href="group-styles.css">
   <link rel="stylesheet" href="../nav.css">
   <title>Group Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="../shared.js"></script>
   <style>
     /* CSS for portrait container */
     .portrait-container {
@@ -42,6 +44,7 @@
 </head>
 <body>
    <!--NAV START-->
+    <div id="gradient"></div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
    <div class="container">
@@ -91,7 +94,7 @@
    <!--NAV END-->
 
   <h1>Group Portfolio</h1>
-
+    </div>
   <div class="portrait-container">
     <!-- First Portrait -->
     <div class="portrait">
@@ -119,5 +122,20 @@
       infoElement.innerHTML = `Information about Portrait ${portraitNumber}`;
     }
   </script>
+      <!-- FOOTER START-->
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; JOMIMI
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Privacy Policy</a> | <a
+                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END-->
 </body>
 </html>

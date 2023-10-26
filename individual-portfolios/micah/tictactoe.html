@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../individual-styles.css">
+    <link rel="stylesheet" href="tictactoe.css">
+    <link rel="stylesheet" href="../../nav.css">
+    <title>Tic Tac Toe</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="home-styles.css">
-    <link rel="stylesheet" href="../nav.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="../shared.js"></script>
-    <title>My Portfolio</title>
-</head>
+    <script src="https://kit.fontawesome.com/bcb9fa309a.js" crossorigin="anonymous"></script>
+    <script src="../../shared.js"></script>
 
+</head>
 <body>
     <!--NAV START-->
     <div id="gradient"></div>
@@ -19,8 +20,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <div class="container">
         <nav class="navbar navbar-expand-sm navbar-dark" >
-            <a href="../home/home.html" class="navbar-brand mb-0 h1 logo">
-                <img class="d-inline-block align-top" src="../images/jomimi.png" wdith="60" height="30" />
+            <a href="../../home/home.html" class="navbar-brand mb-0 h1 logo">
+                <img class="d-inline-block align-top" src="../../images/jomimi.png" wdith="60" height="30" />
                 JOMIMI
             </a>
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
@@ -29,30 +30,30 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a href="../home/home.html" class="nav-link active">
+                    <li class="nav-item">
+                        <a href="../../home/home.html" class="nav-link">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="../group-portfolio/group.html" class="nav-link">
+                        <a href="../../group-portfolio/group.html" class="nav-link">
                             Group
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="../individual-portfolios/individual.html" class="nav-link dropdown-toggle"
+                        <a href="../../individual-portfolios/individual.html" class="nav-link dropdown-toggle active"
                             id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Portfolios
                         </a>
                         <ul class="dropdown-menu" style="background: rgba(105, 105, 166, 0.964)"
                             aria-labelledby="navbarDropdown">
-                            <li><a href="../individual-portfolios/individual-joshua.html" class="dropdown-item">Joshua
+                            <li><a href="../../individual-portfolios/individual-joshua.html" class="dropdown-item">Joshua
                                 </a>
                             </li>
-                            <li><a href="../individual-portfolios/individual-micah.html" class="dropdown-item">Micah
+                            <li><a href="../../individual-portfolios/individual-micah.html" class="dropdown-item active">Micah
                                 </a>
                             </li>
-                            <li><a href="../individual-portfolios/individual-mike.html" class="dropdown-item">Michael
+                            <li><a href="../../individual-portfolios/individual-mike.html" class="dropdown-item">Michael
                                 </a>
                             </li>
                         </ul>
@@ -61,19 +62,33 @@
             </div>
         </nav>
     </div>
-
     <!--NAV END-->
-    <div class="center">
-            <div class="col-md-6 centercontent">
-                <div class="boxer">
-                    <a href="../group-portfolio/group.html">
-                        <span>learn more</span>
-                    </a>
-                </div>
-                <p>About the leading corporation in the anti-bread industry.</p>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <div class="content">
+        <div class="container">
+            <h1>Tic-Tac-Toe</h1>
+            <div class="board">
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
+                <div class="cell" onclick="makeMove(this)"></div>
             </div>
+            <div class="status">
+                <p id="result">Player's Turn</p>
+            </div>
+            <button onclick="resetBoard()">Reset</button>
+        </div>
     </div>
-    <!-- FOOTER START-->
+    <script src="tictactoe.js"></script>
+    
+    <h1><a href="../individual-micah.html" class="return">Return to Portfolio</a></h1>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -88,8 +103,5 @@
         </div>
     </footer>
     <!-- FOOTER END-->
-
-
 </body>
-
 </html>

@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Knight</title>
     <link rel="stylesheet" href="individual-styles.css">
     <link rel="stylesheet" href="../nav.css">
-    <title>Joshua Knight</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcb9fa309a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="../shared.js"></script>
 
 </head>
 <body>
     <!--NAV START-->
+    <div id="gradient"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <div class="container">
@@ -60,33 +63,13 @@
     </div>
     <!--NAV END-->
     <header>
-        <img id="firstImage" src="../Images/portfolio-pic-joshua.jpg" alt="Joshua Knight">
-        <h1 id="textElement">Joshua Knight</h1>
-        <a href="https://github.com/JoshuaTheKnight" target="_blank">
+        <img src="../Images/portfolio-pic-joshua.jpg" alt="Joshua Knight">
+        <h1>Joshua Knight</h1>
+    </header>
+    <div class="content">
+        <a href="https://github.com/JoshuaTheKnight" target="_blank" class="giticon">
             <i class="fa-brands fa-github fa-2x" style="color: #fc8805;"></i>
         </a>
-    </header>
-
-    <script>
-        // JavaScript to change the image on click
-        var image = document.getElementById("firstImage");
-        var text = document.getElementById("textElement");
-        let isImage1 = true;
-
-        image.addEventListener("click", function() {
-            if (isImage1) {
-                image.src = "../Images/me.jpg";
-                text.textContent = "Joshua Knight (True Form)";
-            } else {
-                image.src = "../Images/portfolio-pic-joshua.jpg"; 
-                text.textContent = "Joshua Knight";
-            }
-            isImage1 = !isImage1;
-        });
-    </script>
-
-
-    <div class="content">
         <div class="section">
             <h2>About Me</h2>
             <p>I like technology, I think it is pretty cool. Working with it is rather neat. The jobs pay really well too. 
