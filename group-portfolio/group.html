@@ -93,27 +93,44 @@
    </div>
    <!--NAV END-->
 
-  <h1>Group Portfolio</h1>
-    </div>
-  <div class="portrait-container">
-    <!-- First Portrait -->
-    <div class="portrait">
-      <a href="../group-portfolio/project1.html"><button>Project 1</button></a>
-    </div>
-    <div id="info1"></div>
-
-    <!-- Second Portrait -->
-    <div class="portrait">
-      <a href="../group-portfolio/project2.html"><button>Project 2</button></a>
-    </div>
-    <div id="info2"></div>
-
-    <!-- Third Portrait -->
-    <div class="portrait">
-      <a href="../group-portfolio/project3.html"><button>Project 3</button></a>
-    </div>
-    <div id="info3"></div>
-  </div>
+   <h1>Group Portfolio</h1>
+   <div class="portrait-container">
+       <!-- First Portrait -->
+       <div class="row">
+           <div class="col-md-4">
+               <div class="portrait">
+                   <img src="../Images/serverroom.png" alt="Project 1">
+                   <div class="mt-2 text-center"> <!-- Add margin-top for space -->
+                       <a href="../group-portfolio/project1.html" class="btn btn-primary">Project 1</a>
+                   </div>
+               </div>
+               <div id="info1"></div>
+           </div>
+   
+           <!-- Second Portrait -->
+           <div class="col-md-4">
+               <div class="portrait">
+                   <img src="../Images/serverroom.png" alt="Project 2">
+                   <div class="mt-2 text-center"> <!-- Add margin-top for space -->
+                       <a href="../group-portfolio/project2.html" class="btn btn-primary">Project 2</a>
+                   </div>
+               </div>
+               <div id="info2"></div>
+           </div>
+   
+           <!-- Third Portrait -->
+           <div class="col-md-4">
+               <div class="portrait">
+                   <img src="../Images/serverroom.png" alt="Project 3">
+                   <div class="mt-2 text-center"> <!-- Add margin-top for space -->
+                       <a href="../group-portfolio/project3.html" class="btn btn-primary">Project 3</a>
+                   </div>
+               </div>
+               <div id="info3"></div>
+           </div>
+       </div>
+   </div>
+   
 
   <script>
     function showInfo(portraitNumber) {
